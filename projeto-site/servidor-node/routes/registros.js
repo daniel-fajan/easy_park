@@ -15,7 +15,7 @@ router.get('/ultimas', function(req, res, next) {
 						data_hora, 
 						situacao,
 						FORMAT(data_hora,'HH:mm:ss') as momento_grafico
-						from tb_registro order by id_registro`;
+						from tb_registros order by id_registro`;
 
 	sequelize.query(instrucaoSql, {
 		model: Registro,

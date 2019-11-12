@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
 			field: 'id_estac',
 			type: DataTypes.INTEGER,
 			primaryKey: true,
-			// autoIncrement: true
+			autoIncrement: true
         },
         
         nome_estac:

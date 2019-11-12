@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
 			field: 'id_registro',
 			type: DataTypes.INTEGER,
 			primaryKey: true,
-			// autoIncrement: true
+			autoIncrement: true
 		},
 
 		data_hora:
@@ -45,7 +45,7 @@ module.exports = (sequelize, DataTypes) => {
 	}, 
 
 	{
-		tableName: 'tb_registro', 
+		tableName: 'tb_registros', 
 		freezeTableName: true, 
 		underscored: true,
 		timestamps: false,
