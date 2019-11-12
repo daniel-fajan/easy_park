@@ -1,28 +1,17 @@
 
-.grafico_barra, .grafico_linha
-{
-    position: absolute;
-    width:45%;
-    margin-left: 50%;
-}
 
-.grafico_barra
-{
-    margin-top: 28%;
+.tempo_real{
+    display: flex;
 }
-
-.grafico_linha
-{
-    margin-top: 2%;
+.grafico_linha{
+    color:black;
 }
 
 .grafico_donut
 {
-    position: absolute;
     width: 50%;
     height: 500px;
-    margin-top: 10%;
-    margin-left: 3%;
+    
 }
 
 #nome_estac
