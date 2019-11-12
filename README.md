@@ -1,3 +1,3 @@
-# Projeto modelo para os projetos de PI de 1º semestre
+# EASY PARK
 
-Público alvo: Alunos do 1º semestre em 2019/2.
+Projeto de controle e monitoramento de vagas de estacionamento
