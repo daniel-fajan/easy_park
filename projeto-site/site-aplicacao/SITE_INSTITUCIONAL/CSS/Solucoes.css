@@ -1,0 +1,101 @@
+/*  Corpo */
+
+.titulo
+{
+    margin-top: 2%;
+    margin-left: 35%;
+    width: 30%;
+}
+
+.slides
+{
+  margin-top: 3%;
+  margin-left: -10%;
+  width: 40%;
+  height: 10%;
+}
+
+.voltar, .avancar
+{
+  cursor: pointer;
+  position: absolute;
+  margin-top: -28.5VW;
+  width: 3.5VW;
+  height: 58.5VH;
+  padding: 1VW;
+  color: rgb(252, 98, 26);
+  background-color: rgba(253, 253, 253, 0.2);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  border-style: none;
+  user-select: none;
+}
+
+.voltar
+{
+  position: absolute;
+  margin-left: 25%;
+}
+
+.avancar
+{
+  position: absolute;
+  margin-left: 72%;
+}
+
+.voltar:hover, .avancar:hover
+{
+    color: white;
+    background-color: rgba(252, 98, 26, 0.5);
+}
+
+#texto_slide
+{
+    margin-left: VW;
+    font-family: tahoma;
+    font-size: 2VW;
+    color: black;
+    font-weight: bold;
+}
+
+#foto_slide
+{
+    width: 50VW;
+}
+
+.fade
+{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade
+{
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
+@keyframes fade
+{
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
+.conteudo
+{
+    text-align: justify;
+    font-family: tahoma;
+    font-size: 1.5VW;
+    width: 70VW;
+    margin-left: 15VW;
+}
+
+.links
+{
+    text-decoration: none;
+    color: rgb(252, 98, 26);
+}

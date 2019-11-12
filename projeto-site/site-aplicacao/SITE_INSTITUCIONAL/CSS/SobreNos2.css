@@ -1,0 +1,271 @@
+
+*{margin: 0}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+/* Descrição da empresa */
+
+.DescEmpre
+{
+    margin-top: 2VW;
+    width: 60VW;
+    margin-left: 20VW;
+}
+
+.P_frase
+{
+    font-family: tahoma;
+    font-size: 2.3VW;
+    font-weight: bold;
+    text-align: center;
+}
+
+.P_frase2
+{
+    font-family: tahoma;
+    font-size: 1.8VW;
+}
+
+/* Missão, Visão e Valores */
+
+.MVV
+{
+    font-family: "Arial Narrow";
+}
+
+.MVV h3
+{
+    font-size: 2.3VW;
+    text-align: center;
+}
+
+.MVV p
+{
+font-size: 1.8VW;
+text-align: center;
+}
+
+.Missao
+{
+    margin: 10px 5px 15px 20px;
+    border-style: groove;
+    border-width: 1.444px;
+    border-color: black;
+    background-color:rgb(252, 98, 26, 0.8);
+    padding: 1VW;
+}
+
+.Visao
+{
+    margin: 10px 5px 15px 20px;
+    border-style: groove;
+    border-width: 1.444px;
+    border-color: black;
+    background-color:rgb(252, 98, 26, 0.8);
+    padding: 1VW;
+}
+
+.Valores
+{
+    margin:10px 10px 15px 20px;
+    border-style: groove;
+    border-width: 1.444px;
+    border-color: black;
+    background-color:rgb(252, 98, 26, 0.8);
+    padding: 1VW;
+}
+
+/* Equipe */
+
+h2
+{
+    font-size: 3VW;
+    text-align: center;
+    font-family:"Arial Narrow";
+}
+.Time_1
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* Daniel */
+
+.Equipe_1
+{
+    font-family: tahoma;
+    font-size: 1.7VW;
+    font-weight: 800;
+    text-align: center;
+    background-image: url(../imgs/Equipe/Daniel.JPG);
+    background-color: rgb(252, 98, 26, 0.8);
+    background-size: cover;
+    width: 35VW;
+    height: 20VW;
+    font-size: 1.7VW;
+    margin-left: 1VW;
+}
+
+.Equipe_1:hover
+{
+    filter: opacity(80%);
+}
+
+.Equipe_1:hover:after
+{
+    content: attr(data-hover);
+    font-size: 2VW;
+    font-weight: 300;
+    color:rgb(252, 98, 26);
+}
+
+/* Jhonnatan */
+
+.Equipe_2
+{
+    text-align: center;
+    background-image: url(../imgs/Equipe/Jhonnatan.jpg);
+    background-color: rgb(252, 98, 26, 0.8);
+    background-size: cover;
+    width: 35VW;
+    height: 20VW;
+    margin-left: 0.5VW;
+}
+
+.Equipe_2:hover
+{
+    filter: opacity(80%);
+}
+
+.Equipe_2:hover:after
+{
+    content: attr(data-hover);
+    font-size: 2VW;
+    font-family: tahoma;
+    font-weight: 300;
+    color:rgb(252, 98, 26);
+}
+
+/* Mike */
+
+.Equipe_3
+{
+    font-family: tahoma;
+    font-size: 1.7VW;
+    font-weight: 800;
+    text-align: center;
+    background-image: url(../imgs/Equipe/Mike.jpeg);
+    background-color: rgb(252, 98, 26, 0.8);
+    background-size: cover;
+    width: 35VW;
+    height: 20VW;
+    font-size: 1.7VW;
+    margin-left: 0.5VW;
+}
+
+.Equipe_3:hover
+{
+    filter: opacity(80%);
+}
+
+.Equipe_3:hover:after
+{
+    content: attr(data-hover);
+    font-size: 2VW;
+    font-weight: 300;
+    color:rgb(252, 98, 26);
+}
+
+/* Wellynton */
+
+.Equipe_4
+{
+    font-family: tahoma;
+    font-size: 1.7VW;
+    font-weight: 800;
+    text-align: center;
+    background-image: url(../imgs/Equipe/Wellynton.jpg);
+    background-color: rgb(252, 98, 26, 0.8);
+    background-size: cover;
+    width: 35VW;
+    height: 20VW;
+    font-size: 1.7VW;
+    margin-left: 0.5VW;
+}
+
+.Equipe_4:hover
+{
+    filter: opacity(80%);
+}
+
+.Equipe_4:hover:after
+{
+    content: attr(data-hover);
+    font-size: 2VW;
+    font-weight: 300;
+    color:rgb(252, 98, 26);
+}
+
+/* Pedro */
+
+.Equipe_5
+{
+    font-family: tahoma;
+    font-size: 1.7VW;
+    font-weight: 800;
+    text-align: center;
+    background-image: url(../imgs/Equipe/Pedro.jpg);
+    background-color: rgb(252, 98, 26, 0.8);
+    background-size: cover;
+    width: 35VW;
+    height: 20VW;
+    font-size: 1.7VW;
+    margin-left: 0.5VW;
+}
+
+.Equipe_5:hover
+{
+    filter: opacity(80%);
+}
+
+.Equipe_5:hover:after
+{
+    content: attr(data-hover);
+    font-size: 2VW;
+    font-weight: 300;
+    color:rgb(252, 98, 26);
+}
+
+/* Marcus */
+
+.Equipe_6
+{
+    font-family: tahoma;
+    font-size: 1.7VW;
+    font-weight: 800;
+    text-align: center;
+    background-image: url(../imgs/Equipe/Marcus.jpg);
+    background-color: rgb(252, 98, 26, 0.8);
+    background-size: cover;
+    width: 35VW;
+    height: 20VW;
+    font-size: 1.7VW;
+    margin-right: 1VW;
+    margin-left: 0.5VW;
+}
+
+.Equipe_6:hover
+{
+    filter: opacity(80%);
+}
+
+.Equipe_6:hover:after
+{
+    content: attr(data-hover);
+    font-size: 2VW;
+    font-weight: 300;
+    color:rgb(252, 98, 26);
+}

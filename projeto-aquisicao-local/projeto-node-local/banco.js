@@ -2,10 +2,10 @@ var desenvolvimento = false;
 
 var configuracoes = {
     producao: {
-        server: "testexyzwtrtwr.database.windows.net",
-        user: "adminbandtec",
-        password: "b@ndtec2018",
-        database: "gf2018",
+        server: "srveasypark.database.windows.net",
+        user: "usereasypark",
+        password: "#Gfgrupo4",
+        database: "bdeasypark",
         options: {
             encrypt: true
         },
@@ -17,10 +17,10 @@ var configuracoes = {
         }
     },
     desenvolvimento: {
-        server: "BASETESTE.database.windows.net",
-        user: "usuariotestes",
-        password: "senhatestes",
-        database: "BASETESTE",
+        server: "srveasypark.database.windows.net",
+        user: "usereasypark",
+        password: "#Gfgrupo4",
+        database: "bdeasypark",
         options: {
             encrypt: true
         }

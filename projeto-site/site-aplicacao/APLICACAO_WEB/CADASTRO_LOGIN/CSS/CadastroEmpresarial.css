@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+.logo_easypark{
+    width: 27vw;
+    margin-top: 25px;
+}
+.corpo{
+    text-align: center;
+}
+.login, .empresarial{
+    text-decoration: none;
+    color: rgb(184, 5, 5);
+}
+
+
+.tela_cadastro{
+    width: 40vw;
+    position: relative;
+    margin: 0 auto;
+}
+.txt_conta{
+    padding-top:5%;
+    padding-bottom: 5%;
+    font-size: 18.5px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif; 
+}
+
+.tela_cadastro .opcoes_conta{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 17px;
+  
+}
+
+.opcoes_conta
+{
+    background-color: rgba(121, 119, 119, 0.63);
+}
+
+.opcoes_conta div {
+    margin: 0px 8%;
+    width: 18vw;
+    text-align: left;
+}
+
+input{
+    border-radius: 3px;
+    border: 1px solid rgba(121, 119, 119, 0.904);
+    background-color: white;
+    width: 33vw;
+    padding: 7px 5px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.conta{
+    width: 40vw;
+    padding: 8px 5px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-top: -1px;
+    border: 0px none;
+    color:rgb(255, 255, 255);
+    background-color: rgb(184, 5, 5);
+    border-radius: 3px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.entrar:hover{
+    background-color:rgba(196, 1, 1, 0.863);
+}
+
+.perg_login{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.text span, .span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 16.5px;
+    color: rgb(71, 71, 71);
+}
+.termos , .easytec{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 15.5px;
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    font-weight: bold;
+}

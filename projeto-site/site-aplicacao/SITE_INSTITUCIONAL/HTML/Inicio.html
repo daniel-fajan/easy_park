@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html id="html" lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../IMGS/easytec-logo.png">
+    <link rel="stylesheet" href="../CSS/All.css">
+    <link rel="stylesheet" href="../CSS/Inicio.css">
+    <link rel="stylesheet" href="../CSS/Slide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>EasyTec</title>
+</head>
+
+<body onload = "tempoSlide()">
+    <div class="div_menu">
+        <a href="Inicio.html"><img class="logo" src="../IMGS/EasyTec.png" alt="EasyTec"></a>
+        <nav class="menu">
+            <a href="SobreNos.html">Sobre nós</a>
+            <a href="Solucoes.html">Soluções</a>
+            <a href="#contatos">Contato</a>
+        </nav>
+    </div>
+    <div class="corpo">
+
+        <div class="container">
+
+            <!-- Slide -->
+
+            <div class="slideshow">
+
+                <div class="mySlides">
+                    <a href=""><img src="../IMGS/empresa.png"></a>
+                </div>
+
+                <div class="mySlides">
+                    <a><img src="../IMGS/parking.png"></a>
+                    <div class="text"><a class="op_conta" href="Cadastro.html">Abra sua conta</a><a class="op_login" href="Login.html">Entrar</a></div>
+                </div>
+
+                <div class="mySlides">
+                    <a href="SobreNos.html"><img src="../IMGS/team.png"></a>
+                    <div class="text" id="sobre"><a href="SobreNos.html">Ler mais</a></div>
+                </div>
+
+                <div class="mySlides">
+                    <a href="Solucoes.html"><img src="../IMGS/company.png"></a>
+                    <div class="text" id="solucoes"><a href="Solucoes.html">Ler mais</a></div>
+                </div>
+
+                <a class="prev" onclick="passarSlide(-1)">&#10094;</a>
+                <a class="next" onclick="passarSlide(1)">&#10095;</a>
+
+                <div class="div_bolinha" style="text-align: center">
+                    <span class="bolinha" onclick="bolinhaSlide(1)"></span>
+                    <span class="bolinha" onclick="bolinhaSlide(2)"></span>
+                    <span class="bolinha" onclick="bolinhaSlide(3)"></span>
+                    <span class="bolinha" onclick="bolinhaSlide(4)"></span>
+                </div>
+            </div>
+            <br>
+
+
+
+
+            <!-- Fim do Slide -->
+
+
+
+
+            <div class="inicio">
+                <a href="#vantagens">Vantagens</a>
+                <a href="#servico">Serviço</a>
+                <a href="#diferenciais">Diferenciais</a>
+            </div>
+            <h3 id="vantagens" class="vantagens">Vantagens</h3>
+            <div class="div_vantagens">
+                <p>Visualize os dados de forma simples e prática com possibilidade de detectar alterações em equipamentos
+                    através de histórico confiável.</p>
+                <p>Tenha o suporte técnico que você precisa com nossa equipe especializada atuando no atendimento à solução,
+                    garantindo o monitoramento 24h.</p>
+                <p>Do computador ao celular, com login e senha, você acessa a plataforma online e visualiza os dados em tempo real.</p>
+                <p>Solução nacional garantindo a confiabilidade com rede de dados própria e implantação de acordo com a sua infraestrutura.</p>
+            </div>
+
+            <h3 id="servico" class="servico">Serviço</h3>
+            <h4 class="h_servico">Os sistemas desenvolvidos, facilitam a vida dos usuários e getores, dando segurança e controle disponível, em qualquer lugar.</h4>  
+            <div class="div_servico">
+                    <img class="img_servico" src="../IMGS/servicios-empresa.png">
+                <div>
+                    <p><i class="fa fa-check"></i> Alertas Configuráveis e Confiáveis</p>
+                    <p><i class="fa fa-check"></i> Economia de tempo.</p>
+                    <p><i class="fa fa-check"></i> Centralização de dados em única plataforma.</p>
+                    <p><i class="fa fa-check"></i> Backup de todos os dados.</p>
+                </div>
+            </div>
+            
+            <h3 class="diferenciais" id="diferenciais">Diferenciais</h3>
+            <div class="div_diferenciais">
+                <p>Prestamos um serviço contínuo de monitoramento através do inovador modelo de assinatura com o comodato de equipamentos. Muito além de sensores e plataforma online, a continuidade na prestação do serviço é nossa garantia de que a solução funcionará independente, de fato.</p>
+                <p>A implantação e a manutenção dos equipamentos são itens imprescindíveis para o bom funcionamento de qualquer solução, por isso são parte ativa do modelo de negócio garantindo a integridade do monitoramento.</p>
+            </div>
+        </div>
+    </div>
+</body>
+<footer id="contatos">
+    <div class="rodape_left">
+        <img class="logo_rodape" src="../IMGS/Easy-Tec.png" alt="">
+        <p class="txt_left"><span></span> Desenvolvemos soluções para a Internet das Coisas com expertise. Ajudamos
+            instituições em sua jornada de sucesso, através da inovação e excelência de nossos serviços</p>
+    </div>
+
+    <div class="rodape_center">
+        <nav class="menu_rodape">
+            <ul><a class="" href="#html">Home</a></ul> <br> <br>
+            <ul><a class="" href="SobreNos.html">Sobre nós</a></ul> <br> <br>
+            <ul><a class="" href="Solucoes.html">Soluções</a></ul> <br> <br>
+        </nav>
+    </div>
+
+    <div class="rodape_right">
+        <h4 class="rodape_endereco">Endereço</h4>
+        <p class="endereco"> Rua Antônio Carlos, 690
+            Consolação São Paulo - SP - Brasil, 01309-010
+        </p>
+        <br>
+        <p class="phone"><i class="fa fa-phone" id="phone"> </i> +55 (11) 27400131</p>
+        <p class="email"><i class="fa fa-envelope" id="email"></i>contato@easytec.com</p>
+    </div>
+</footer>
+
+</html>
+<script type="text/javascript" src="../JS/Slide.js"></script>

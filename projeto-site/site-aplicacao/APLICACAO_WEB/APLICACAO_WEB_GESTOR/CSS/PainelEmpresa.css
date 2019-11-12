@@ -1,0 +1,35 @@
+.botoes{
+    margin:0;
+    margin-top: 13vw;
+    margin-left: 17vh;
+    margin-right: 0;
+}
+
+.botao1, .botao2, .botao3
+{
+    width: 50vh;
+    height: 26vh;
+    border-style: none;
+    border-radius: 2vw;
+    padding: 0.5vw;
+    font-size: 40px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+
+.botao1
+{
+    position: absolute;
+    margin-left: -10VW;
+}
+
+.botao2
+{
+    margin-left: 20VW;
+}
+
+.botao3
+{
+    margin-left: 5VW;
+}

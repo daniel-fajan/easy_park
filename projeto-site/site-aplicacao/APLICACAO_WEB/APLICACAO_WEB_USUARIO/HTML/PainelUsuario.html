@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../IMGS/EasyPark.png">
+    <link rel="stylesheet" href="../CSS/All.css">
+    <link rel="stylesheet" href="../CSS/PainelUsuario.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>EasyPark - Painel</title>
+</head>
+
+<body id="body">
+    <div class="div_menu">
+        <a href="PainelUsuario.html"><img class="logo" src="../IMGS/Easy--Park.png" alt="EasyTec"></a>
+        <div onclick="ClickMenu()" class="menu">
+            <div class="div_dropdown">
+                <button id = 'botao_dropdown' class="dropdown"></button>
+                <img class="user" src="../IMGS/user.png" alt="">
+                <i id='ceta' class="fa fa-angle-down"></i>
+            </div>
+            <div id="opcoes_menu" class="opcoes">
+                <a class="painel" href="PainelUsuario.html">Painel <i class="fa fa-home"></i></a>
+                <a href="Perfil.html">Perfil <i class="fa fa-user"></i></a>
+                <a onclick='Sair()' class="sair" href="#">Sair <i class="fa fa-sign-out"></i></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="estacionamento_1" onclick="estacionamento_1()"><img src="../IMGS/estacionamento_1.jpg" class="estacionamento_foto_1"> 
+    <br>
+    <h3>Estacionamento Shopping Lar Center.</h3>
+    <br><br>
+    Cidade: São Paulo.
+    <br><br>
+    Av. Otto Baumgart, 500 - Vila Guilherme, São Paulo - SP, 02049-000
+    <br><br>
+    Horário de Funcionamento: 8:00 as 23:00.
+    </div>
+
+    <div class="estacionamento_2" onclick="estacionamento_2()"> <img src="../IMGS/estacionamento_2.png" class="estacionamento_foto_2"> 
+    <br>
+     <h3>Estacionamento Paulista Park</h3>
+    <br><br>
+    Cidade: São Paulo.
+    <br><br>
+    Avenida Paulista, 648 No 2º subsolo do Ed. Nações Unidas - Bela Vista, São Paulo - SP, 01310-100
+    <br><br>
+    Horário de Funcionamento: 24 Horas.
+    </div>
+
+    <div class="estacionamento_3" onclick="estacionamento_3()"> <img src="../IMGS/estacionamento3.jpg" class="estacionamento_foto_2"> 
+    <br>
+    <h3>Portal Park</h3>
+    <br><br>
+    Cidade: São Paulo.
+    <br><br>
+    Av. Jabaquara, 2958 - Planalto Paulista, São Paulo - SP, 04046-500
+    <br><br>
+    Horário de Funcionamento: 8:00 as 19:00.
+    </div>
+    
+    </div>
+
+        <div class='desfocado' id='desfocado'><!-- Opção de sair -->
+            <div class='sair_prg' id='sair_prg'></div>
+        </div>
+
+</body>
+</html>
+
+<script type="text/javascript" src="../JS/ClickMenu.js"></script>
+<script type="text/javascript" src="../JS/Sair.js"></script>
+<script type="text/javascript" src="../JS/PainelUsuario.js"></script>
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=d219ea37-587c-44a5-8a9f-cc84500c05ae"> </script>

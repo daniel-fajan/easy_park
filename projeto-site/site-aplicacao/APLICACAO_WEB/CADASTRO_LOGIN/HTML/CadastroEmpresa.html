@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../CSS/CadastroEmpresarial.css">
+    <script type="text/Javascript" src="../JS/CadastroEmpresarial.js"></script>
+    <link rel="icon" href="../IMGS/EasyPark.png">
+    <title>EasyPark</title>
+</head>
+<body>
+
+    <div class="corpo">
+        <img class="logo_easypark" src="../IMGS/Easy-Park.png" alt="">
+        <p class="perg_login">Já tem uma conta? <a class="login" href="Login.html">Faça login em vez disso</a></p>
+        <form class="tela_cadastro">
+            
+            <div class="opcoes_conta">
+                <div class="txt_email"> Email</div>
+                <input type="email" id="login" required>
+                <div class="txt_email"> Nome da empresa</div> 
+                <input type="text" id="login" required>
+                <div class="txt_senha"> Senha</div>
+                <input type="password" id="senha" required>
+                <div class="txt_senha">Confirmar senha</div>
+                <input type="password" id="senha" required>
+                <div class="txt_email"> Token</div> 
+                <input type="text" id="token" required>
+            </div>
+            <button onclick = "cadastrar()" class="conta">Criar conta empresarial</button><br>
+
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../IMGS/EasyPark.png">
+    <link rel="stylesheet" href="../CSS/All.css">
+    <link rel="stylesheet" href="../CSS/Perfil_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>EasyPark - Perfil</title>
+</head>
+
+<body>
+    <div class="div_menu">
+        <a href="PainelUsuario.html"><img id="foto_perfil" class="logo" src="../IMGS/Easy--Park.png" alt="EasyTec"></a>
+        <div onclick="ClickMenu()" class="menu">
+            <div class="div_dropdown">
+                <button class="dropdown" id="botao_dropdown"></button>
+                <img class="user" src="../IMGS/user.png" alt="">
+                <i id='ceta' class="fa fa-angle-down"></i>
+            </div>
+            <div id="opcoes_menu" class="opcoes">
+                <a class="painel" href="PainelUsuario.html">Painel <i class="fa fa-home"></i></a>
+                <a href="Perfil.html">Perfil<i class="fa fa-user"></i></a>
+                <a onclick='Sair()' class="sair" href="#">Sair <i class="fa fa-sign-out"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class='desfocado' id='desfocado'>
+        <!-- Opção de sair -->
+        <div class='sair_prg' id='sair_prg'></div>
+    </div>
+    
+    <!-- Perfil -->
+
+    <div class="corpo_perfil">
+        <div class="perfil">
+            <img class="foto_perfil" src="../IMGS/user.png" alt="">
+            <div class="div_perf">
+                    
+                <p id="nome_user" class="nome_user"></p>
+                
+                <button onclick="editar_perfil()" class="edi_per">Editar perfil</button>
+                <div class="editar_info" id="editar_info">
+                   <p>Nome de usuário</p>
+                   <input type="text" id="edi_nome_user">
+                   
+                   <p>Email</p>
+                   <input type="email" id="edi_email">
+
+                  
+                    <p>Senha atual</p>   
+                    <input type="password" id="senha_atual"> 
+
+                    <p>Alterar senha</p> 
+                    <input type="password" id="alte_senha">
+
+                   <p>Confirmar nova senha</p>  
+                    <input type="password" id="confirma_senha">
+                  
+                   <button onclick="confir_alter()" class="confir_botao">Confirmar alterações</button>
+                </div>
+            </div>
+        </div>
+
+       <div class="div_favoritos"> 
+
+            <p class="titulo">FAVORITOS</p> 
+
+            
+
+            <div class="estacionamento_1">
+               
+               
+                <button  onclick="Local_esta_1()" class="esta_titulo_1">Estacionamento Shopping Lar Center.</button>
+                
+                  <div id="Info_1" class="cInfo_1"> 
+                   <p>Cidade: São Paulo.</p>
+                
+                   <P>Av. Otto Baumgart, 500 - Vila Guilherme, São Paulo - SP, 02049-000</P>
+            
+                   <p>Horário de Funcionamento: 8:00 as 23:00.</p>
+
+                   <a href="../HTML/Estacionamento.html">Verificar estado atual</a>
+                  </div>
+            </div>
+
+               <div class="estacionamento_2">
+                    <button  onclick="Local_esta_2()" class="esta_titulo_2">Estacionamento Paulista Park</button>
+                
+                    <div id="Info_2" class="cInfo_2"> 
+
+                    <p>Cidade: São Paulo.</p>
+                    
+                    <p>Avenida Paulista, 648 No 2º subsolo do Ed. Nações Unidas - Bela Vista, São Paulo - SP, 01310-100</p></li>
+        
+                   <p>Horário de Funcionamento: 24 Horas.</p>
+
+                    <a href="../HTML/Estacionamento.html">Verificar estado atual</a>
+                    </div>
+               </div>
+
+               <div class="estacionamento_3">
+                   
+                    <button  onclick="Local_esta_3()" class="esta_titulo_3">Portal Park</button>
+                    <div id="Info_3" class="cInfo_3"> 
+                    <p>Cidade: São Paulo.</p>
+                    
+                    <p>Av. Jabaquara, 2958 - Planalto Paulista, São Paulo - SP, 04046-500</p>
+                    
+                    <p>Horário de Funcionamento: 8:00 as 19:00.</p>
+
+                    <a href="../HTML/Estacionamento.html">Verificar estado atual</a>
+                    </div>
+               </div>
+             
+        </div>  
+    </div>
+
+</body>
+</html>
+
+<script type="text/javascript" src="../JS/ClickMenu.js"></script>
+<script type="text/javascript" src="../JS/Sair.js"></script>
+<script type="text/javascript" src="../JS/Editar_Perfil.js"></script>
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=d219ea37-587c-44a5-8a9f-cc84500c05ae"> </script>

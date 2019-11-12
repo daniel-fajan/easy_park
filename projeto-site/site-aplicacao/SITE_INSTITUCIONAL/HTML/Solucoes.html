@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html id="html" lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../IMGS/easytec-logo.png">
+    <script type="text/Javascript" src="./../JS/Solucoes.js"></script>
+    <link rel="stylesheet" href="../CSS/All.css">
+    <link rel="stylesheet" href="../CSS/Solucoes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>EasyTec</title>
+</head>
+
+<header>
+
+    <div class="div_menu">
+
+        <a href="Inicio.html"><img class="logo" src="../IMGS/EasyTec.png" alt="EasyTec"></a>
+
+        <nav class="menu">
+
+            <a href="SobreNos.html">Sobre nós</a>
+            <a href="Solucoes.html">Soluções</a>
+            <a href="#contatos">Contato</a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<body onload = "passar_slide_tempo()">
+
+    <a href="../../APLICACAO_WEB/CADASTRO_LOGIN/HTML/Login.html"> <img class = "titulo" src="../IMGS/Easy-Park.png"> </a>
+
+    <center>
+    <div class = "slides">
+
+        <img class = "fade" id = "foto_slide" src = "../IMGS/motorista.png">
+
+    </div>
+    </center>
+
+    <button class = "voltar" onclick = "trocar_slide_v()">&#10094;</button>
+    <button class = "avancar" onclick = "trocar_slide_a()">&#10095;</button>
+
+    <center> <span id = "texto_slide">O melhor amigo <br> dos motoristas!</span> </center> <br><br>
+
+    <div class = "conteudo">
+
+        <p>
+            A falta de vagas ou a dificuldade de encontra-las, sem dúvidas é um dos principais problemas que estressam todos os motoristas todos os dias, ainda mais nas principais cidades brasileiras. Os principais afetados, sem dúvidas são os motoristas, que além de ficar presos no trânsito praticamente todos os dias, quando vão procurar uma vaga para estacionar perdem mais tempo.
+        </p>
+        <br>
+        <p>
+            Easy Park é uma aplicação que visa como objetivo ajudar os motoristas e os gestores de estacionamentos, a fim de proporcionar uma melhor experiência para os usuários, tanto no trânsito do dia a dia quanto na gestão de um estacionamento e suas vagas/clientes.
+        </p>
+        <br>
+        <p>
+            Nosso produto permite ao usuário ver as vagas disponíveis para estacionar, podendo ser implementado tanto na rua quanto em estacionamentos particulares como de shoppings, empresas e universidades. <br> <br>
+
+            O sistema permite ao gestor, além de verificar quais vagas estão sendo utilizadas no momento, verificar gráficos e outras métricas do seu estacionamento, como por quanto tempo o carro ficou em determinada vaga, em quais horários do dia o estacionamento fica mais cheio e se há alguma irregularidade na vaga.
+        </p> <br><br>
+
+        <p>
+            Clique <a class = "links" href="../../APLICACAO_WEB/CADASTRO_LOGIN/HTML/Login.html">aqui</a> para começar a usar Easy Park totalmente grátis. Se você tem um estacionamento e deseja implementar nosso sistema, entre em contato conosco.
+        </p>
+
+    </div>
+
+</body>
+<br><br><br><br><br>
+<footer id = "contatos">
+
+    <div class="rodape_left">
+
+        <img class="logo_rodape" src="../IMGS/Easy-Tec.png">
+
+        <p class="txt_left">
+            Desenvolvemos soluções para a Internet das Coisas com expertise. Ajudamos
+            instituições em sua jornada de sucesso, através da inovação e excelência de nossos serviços
+        </p>
+
+    </div>
+
+    <div class="rodape_center">
+
+        <nav class="menu_rodape">
+
+            <ul><a class="" href="Inicio.html">Home</a></ul> <br> <br>
+            <ul><a class="" href="SobreNos.html">Sobre nós</a></ul> <br> <br>
+            <ul><a class="" href="#html">Soluções</a></ul>
+
+        </nav>
+
+    </div>
+
+    <div class="rodape_right">
+
+        <h4 class="rodape_endereco">Endereço</h4>
+
+        <p class="endereco">
+            Rua Antônio Carlos, 690
+            Consolação São Paulo - SP - Brasil, 01309-010
+        </p>
+
+        <br>
+
+        <p class="phone"><i class="fa fa-phone" id="phone"></i> +55 (11) 27400131</p>
+
+        <p class="email"><i class="fa fa-envelope" id="email"></i>contato@easytec.com</p>
+    
+    </div>
+
+</footer>
+
+</html>

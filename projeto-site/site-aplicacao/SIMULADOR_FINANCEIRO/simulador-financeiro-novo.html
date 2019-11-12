@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BandParking - Simulador Financeiro</title>
+    <style>
+        body {
+            background: rgb(107, 107, 241);
+            font: normal 15pt Arial;
+        }
+        header {
+            color: white;
+            text-align: center;
+        }
+        section {
+            background: white;
+            text-align: center;
+            border-radius: 10px;
+            padding: 15px;
+            width: 500px;
+            height: 80px;
+            margin: auto;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+        }
+        footer {
+            color: white;
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>BandParking<br>Simulador Financeiro</h1>
+    </header>
+
+    <section id="section">
+        <div>
+            Quantidade de vagas: <br>
+            <input type="number" min="0" id="qnt_vagas" autofocus><br>
+            <button onclick="calcular()">Calcular custo</button>
+        </div>
+        <br>
+        <div id="mensagem" style="display: none"></div>
+    </section>
+
+    <footer>
+        <p>&copy; BandParking - 2019</p>
+    </footer>
+    
+</body>
+</html>
+
+<script>
+    function calcular() {
+        section.style.height = '160px';
+        mensagem.style.display = 'block';
+        mensagem.innerHTML = `O custo de implementação para a<br>
+        quantidade de <b>${qnt_vagas.value}</b> vagas é <b>R$${qnt_vagas.value * 12.5}</b> reais!`;
+        qnt_vagas.value = 0;
+    }
+</script>

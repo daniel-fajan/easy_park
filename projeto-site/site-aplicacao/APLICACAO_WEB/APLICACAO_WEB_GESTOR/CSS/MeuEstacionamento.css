@@ -1,0 +1,36 @@
+
+.grafico_barra, .grafico_linha
+{
+    position: absolute;
+    width:45%;
+    margin-left: 50%;
+}
+
+.grafico_barra
+{
+    margin-top: 28%;
+}
+
+.grafico_linha
+{
+    margin-top: 2%;
+}
+
+.grafico_donut
+{
+    position: absolute;
+    width: 50%;
+    height: 500px;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+
+#nome_estac
+{
+    position: absolute;
+    font-family: tahoma;
+    font-size: 2VW;
+    font-weight: bold;
+    margin-left: 10VW;
+    margin-top: 3VW;
+}

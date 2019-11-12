@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+
+body
+{
+    background-color: rgb(247, 247, 247);
+}
+
+.logo_easypark
+{
+    width: 27vw;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.logo
+{
+    text-align: 50%;
+}
+
+.opcoes
+{
+    text-align: center;
+    width: 40%;    
+    height: 40%;
+    color: black;
+}
+
+button
+{
+    border-style: none;
+    border-radius: 2vw;
+    padding: 0.5vw;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(184, 5, 5);
+    cursor: pointer;
+}

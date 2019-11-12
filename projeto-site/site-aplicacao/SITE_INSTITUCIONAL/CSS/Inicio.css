@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+.corpo{
+    text-align: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+.corpo .inicio {
+    padding: 9px 10px;
+    margin-top: 0.5%;
+    background-color: rgba(252, 98, 26, 0.842);
+}
+.corpo .inicio a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+    margin: 5px 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.vantagens{
+    margin: 15px 0;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.div_vantagens{
+    display: flex;
+    padding: 0 70px;
+    border-bottom: 1px solid rgba(252, 98, 26, 0.397);
+}
+.div_vantagens p{
+    font-family: 'Open Sans', sans-serif;
+    
+    padding: 0 15px;
+    text-align: justify;
+    text-indent: 3em;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.servico, .h_servico {
+    margin: 10px 0;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.h_servico{
+    font-size: 17px;
+}
+.img_servico{
+    width: 33vw;
+    margin-left: 5%;
+    font-family: 'Open Sans', sans-serif;
+}
+.div_servico{
+    display: flex;
+    padding: 0 50px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid rgba(252, 98, 26, 0.397);
+}
+.div_servico p i{
+    color: rgba(252, 98, 26, 0.842);
+}
+.div_servico p{
+    margin: 0 20px;
+    line-height: 65px;
+    text-align: justify;
+    text-indent: 3em;
+    font-size: 16px;
+}
+
+.diferenciais{
+    margin: 15px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.div_diferenciais{
+    padding: 0 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+.div_diferenciais p{
+    margin: 0 20px;
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 3em;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+

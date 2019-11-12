@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+.corpo_perfil{
+    display: flex;
+}
+.perfil{
+    padding: 3% 3%;
+    width: 17vw;
+}
+.foto_perfil{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.nome_user{
+    text-align: center;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin: 3px 0;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.edi_per{
+    padding: 2.5% 20%;
+    width: 100%;
+    position: relative;
+    font-size: 17px;
+    border: 1px;
+    border-radius: 7px;
+    border-style: none;
+    border-color: gray;
+    font-family: 'Oswald', sans-serif;
+}
+.editar_info{
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 7px;
+    text-align: center;
+}
+.confir_botao{
+    width: 172px;
+    padding: 4px 4px;
+    padding-left: 9px;
+    margin-top: 7px;
+    position: relative;
+    font-size: 14px;
+    border: 1px;
+    border-radius: 7px;
+    border-style: none;
+    border-color: gray;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Favoritos */
+
+.div_favoritos{
+    margin-top: 6vh;
+    margin-left: 23vw;
+    position: absolute;
+    width: 39vw;
+    height: auto;
+    border: 3px;
+    border-style: solid;
+}
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.div_estacionamentos{
+    position: relative;
+    width: 72vw;
+    height: 66vh;
+    margin-left: 3vh;
+   
+}
+
+/* Estacionamento 1 */
+.estacionamento_1{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 119px;
+    width: 22vw;
+    height: auto;
+    text-align: center;   
+}
+.estacionamento_1 button{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    width: 307px;
+    height: 31px;
+    border: 8px;
+    border-radius: 8px;
+    border-style: none;
+}
+.estacionamento_1 button:hover{
+    background-color: #d70000c7;
+}
+.estacionamento_1 p{
+    font-size: 17px;
+    padding-top: 8px;
+    color: black;
+    margin-bottom: 13px ;
+}
+.esta_titulo_1{
+    font-weight: bold;
+}
+.estacionamento_1 a{
+    font-size: 20px;
+    text-decoration: none;
+    color:#d70000c7;
+}
+
+
+/* Estacionamento 2 */
+
+.estacionamento_2{
+    position: relative;
+    margin-top: 25px;
+    margin-left: 119px;
+    width: 306px;
+    height: auto;
+    text-align: center;   
+}
+
+.estacionamento_2 button{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    width: 307px;
+    height: 31px;
+    border: 8px;
+    border-radius: 8px;
+    border-style: none;
+}
+.estacionamento_2 button:hover{
+    background-color:#d70000c7;
+}
+
+.estacionamento_2 p{
+    font-size: 17px;
+    padding-top: 8px;
+    color: black;
+    margin-bottom: 13px;
+}
+.esta_titulo_2{
+    font-weight: bold;
+}
+
+.estacionamento_2 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #d70000c7;
+}
+
+/* Estacionamento 3 */
+
+.estacionamento_3{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 119px;
+    margin-bottom: 60px;
+    width: 306px;
+    height: auto;
+    text-align: center;
+}
+
+.estacionamento_3 button{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    width: 307px;
+    height: 31px;
+    border: 8px;
+    border-radius: 8px;
+    border-style: none;
+}
+.estacionamento_3 button:hover{
+    background-color: #d70000c7;
+}
+.estacionamento_3 p{
+    font-size: 17px;
+    padding-top: 8px;
+    margin-bottom: 13px;
+    color:black;
+}
+.esta_titulo_3{
+    font-weight: bold;
+}
+.estacionamento_3 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #d70000c7;
+}

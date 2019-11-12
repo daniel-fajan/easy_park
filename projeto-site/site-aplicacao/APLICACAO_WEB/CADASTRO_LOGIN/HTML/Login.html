@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../CSS/Login.css">
+    <link rel="icon" href="../IMGS/EasyPark.png">
+    <title>EasyPark</title>
+</head>
+<body>
+
+    <div class="corpo">
+        <img class="logo_easypark" src="../IMGS/Easy_Park.png" alt="">
+
+        <div class="tela_login" id="form" novalidate>
+        
+            <div class="opcoes_login">
+        
+                <p class="txt_entrar">Entrar</p>
+        
+                <div class="mens_pree" id="invalido">Usuário invalido <span id="fecha_pass" onclick="fecharInva()">X</span></div>
+
+                <!-- ***************************************************************************** -->
+        
+                <div class="txt_email"> Nome de Usuário ou email </div>
+        
+                <input type="text" id="login" required="true"><br>
+        
+                <div class="mens_pree" id="pree_log">Esse campo dever ser preenchido <span id="fecha_log" onclick="fecharLog()">X</span></div>
+
+                <!-- ***************************************************************************** -->
+        
+                <div class="txt_senha"> Senha</div>
+        
+                <input type="password" id="password" required="true"><br>
+        
+                <div class="mens_pree" id="pree_pass">Esse campo dever ser preenchido <span id="fecha_pass" onclick="fecharPass()">X</span></div>
+
+                <!-- ***************************************************************************** -->
+        
+                <div class="txt_senha"> Tipo de Login</div>
+
+                <select id="tipo_login">
+
+                    <option value="motorista">Motorista</option>
+                    <option value="empresa">Empresa</option>
+
+                </select>
+        
+                <div class="mens_pree" id="pree_tipo">Esse campo dever ser preenchido <span id="fecha_tipo" onclick="fecharTipo()">X</span></div>
+
+                <!-- ***************************************************************************** -->
+                
+                <button onclick="Entrar()" class="entrar">Entrar</button><br>
+                
+            </div>
+            <div class="opcoes_cadastro">
+               <p >Não possui uma conta?<a class="cadastro" href="CadastroUsuario.html">Cadastre-se</a></p>
+            </div>
+            <div class="opcoes">
+                <a href="">Ajuda</a><a href="">Termos</a><a href="../../../SITE_INSTITUCIONAL/HTML/Inicio.html">EasyTec</a>
+            </div>
+        </div>
+    </div>
+                
+</body>
+<footer></footer>
+</html>
+
+<script type="text/javascript" src="../JS/Login.js"></script>
